@@ -10,7 +10,6 @@ public class Motorcycle extends Vehicle{
 
     @Override
     protected void printInfo(){
-        super.printInfo();
         System.out.println("Транспортное средство: Мотоцикл - Количество колес: " +
                 wheelCount + " - Максимальная скорость: " + maxSpeed + " км/час");
     }

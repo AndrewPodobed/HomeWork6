@@ -8,10 +8,7 @@ public abstract class Vehicle{
         this.wheelCount = wheelCount;
 
     }
-    protected void printInfo(){
-        System.out.println("");
-
-    }
+    abstract protected void printInfo();
 
 
 }
